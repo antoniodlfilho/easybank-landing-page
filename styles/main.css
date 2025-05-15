@@ -1,0 +1,48 @@
+.main {
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 73%;
+  width: 100vw;
+  background-color: hsl(0, 0%, 98%);
+  z-index: -1;
+}
+
+.main-info {
+  margin-left: 240px;
+}
+
+.main-info h1 {
+  font-size: 60px;
+  width: 460px;
+  line-height: 65px;
+  color: hsl(233, 26%, 24%);
+}
+
+.main-info p {
+  font-size: 18px;
+  width: 450px;
+  margin: 35px 0px 35px 0px;
+  color: hsl(233, 8%, 62%);
+}
+
+.main-info a {
+  padding: 13px 30px 13px 30px;
+  border-radius: 30px;
+  color: hsl(0, 0%, 100%);
+  background: linear-gradient(0.25turn, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  font-size: 15px;
+}
+
+.main-img {
+  display: flex;
+  margin-left: 385px;
+  /* z-index: -1; */
+}
+
+.img-bg {
+  position: absolute;
+  z-index: -1;
+  top: -260px;
+}

@@ -1,0 +1,102 @@
+.banc-info {
+  background-color: hsl(220, 16%, 96%);
+  position: relative;
+  z-index: -99;
+}
+
+.banc-info h1 {
+  font-size: 48px;
+  width: 666px;
+  line-height: 65px;
+  color: hsl(233, 26%, 24%);
+  padding-top: 90px;
+}
+
+.banc-info > p {
+  font-size: 17px;
+  width: 610px;
+  margin: 22px 0px 60px 0px;
+  color: hsl(233, 8%, 62%);
+}
+
+.cards {
+  display: flex;
+  align-items: center;
+  padding-bottom: 120px;
+  gap: 38px;
+}
+
+.card {
+  width: 300px;
+}
+
+.card img {
+  margin-bottom: 30px;
+}
+
+.card h2 {
+  font-size: 22px;
+  margin-bottom: 23px;
+  color: hsl(233, 26%, 24%);
+}
+
+.card p {
+  color: hsl(233, 8%, 62%);
+  width: 265px;
+}
+
+/* Latest Articles */
+
+.news-article {
+  background-color: hsl(0, 0%, 98%);
+  padding-bottom: 100px;
+}
+
+.news-article h1 {
+  font-size: 48px;
+  width: 666px;
+  line-height: 65px;
+  color: hsl(233, 26%, 24%);
+  padding-top: 90px;
+  padding-bottom: 50px;
+}
+
+.new-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.new-card {
+  max-width: 300px;
+  background-color: hsl(0, 0%, 100%);
+}
+
+.card-img img {
+  width: 300px;
+  height: 210px;
+  border-radius: 10px 10px 0px 0px;
+}
+
+.new-info {
+  padding: 25px;
+}
+
+.new-card span {
+  font-size: 14px;
+  color: hsl(233, 8%, 62%);
+}
+
+.new-card h2 {
+  font-size: 18px;
+  color: hsl(233, 26%, 24%);
+  width: 210px;
+  line-height: 20px;
+  margin: 10px 0px 10px 0px;
+}
+
+.new-card p {
+  font-size: 15px;
+  width: 250px;
+  color: hsl(233, 8%, 62%);
+}
