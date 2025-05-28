@@ -12,7 +12,6 @@ function imgTroca() {
     menuHam.src = "./images/icon-close.svg";
   } else {
     menuHam.src = "./images/icon-hamburger.svg";
-    // listMenuMobile.classList.remove("bg-main");
   }
 }
 

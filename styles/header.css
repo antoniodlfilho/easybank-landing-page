@@ -42,7 +42,7 @@
 }
 
 .bg-menu {
-  box-shadow: 0px 200px 260px 1px rgb(56 59 72 / 89%);
+  box-shadow: 0px 150px 260px 1px rgb(56 59 72 / 50%);
 }
 
 @media (max-width: 1440px) {
