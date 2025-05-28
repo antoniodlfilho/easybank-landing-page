@@ -95,8 +95,228 @@
   margin: 10px 0px 10px 0px;
 }
 
+.new-card h2 a:hover {
+  color: hsl(136, 65%, 51%);
+  transition: 0.3s;
+}
+
 .new-card p {
   font-size: 15px;
   width: 250px;
   color: hsl(233, 8%, 62%);
+}
+
+@media (max-width: 1440px) {
+  .banc-info {
+    background-color: hsl(220, 16%, 96%);
+    position: relative;
+    z-index: -99;
+    padding-left: 160px;
+    padding-right: 0px;
+  }
+
+  .banc-info h1 {
+    font-size: 38px;
+    width: 412px;
+    line-height: 65px;
+    color: hsl(233, 26%, 24%);
+    padding-top: 90px;
+    font-weight: 300;
+  }
+
+  .banc-info > p {
+    font-size: 16px;
+    width: 568px;
+    margin: 22px 0px 60px 0px;
+    color: hsl(233, 8%, 62%);
+  }
+
+  .cards {
+    display: flex;
+    align-items: center;
+    padding-bottom: 120px;
+    justify-content: inherit;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    width: 267px;
+  }
+
+  .card img {
+    margin-bottom: 30px;
+    width: 68px;
+  }
+
+  .card h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: hsl(233, 26%, 24%);
+    font-weight: 300;
+  }
+
+  /* ARTICLE */
+
+  .news-article h1 {
+    font-size: 38px;
+    width: 260px;
+    line-height: 65px;
+    color: hsl(233, 26%, 24%);
+    padding-top: 68px;
+    padding-bottom: 46px;
+  }
+
+  .news-article {
+    background-color: hsl(0, 0%, 98%);
+    padding-bottom: 100px;
+    padding-left: 160px;
+    padding-right: 0px;
+  }
+
+  .new-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: inherit;
+    gap: 20px;
+  }
+
+  .new-card {
+    max-width: 267px;
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  .card-img img {
+    width: 100%;
+    height: 188px;
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .new-info {
+    padding: 20px;
+  }
+
+  .new-card h2 {
+    font-size: 17px;
+    color: hsl(233, 26%, 24%);
+    width: 180px;
+    line-height: 20px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .new-card p {
+    font-size: 14px;
+    width: 220px;
+    color: hsl(233, 8%, 62%);
+  }
+}
+
+@media (max-width: 420px) {
+  .banc-info {
+    display: flex;
+    background-color: hsl(220, 16%, 96%);
+    /* position: relative; */
+    /* z-index: -99; */
+    padding-left: 0px;
+    /* padding-right: 0px; */
+    flex-direction: column;
+    align-items: center;
+    padding-right: 0px;
+    text-align: center;
+  }
+
+  .banc-info h1 {
+    font-size: 38px;
+    width: 223px;
+    line-height: 46px;
+    color: hsl(233, 26%, 24%);
+    padding-top: 68px;
+    font-weight: 300;
+  }
+
+  .banc-info > p {
+    font-size: 16px;
+    width: 350px;
+    margin: 22px 0px 60px 0px;
+    color: hsl(233, 8%, 62%);
+  }
+
+  .cards {
+    display: flex;
+    padding-bottom: 120px;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .card {
+    display: flex;
+    width: 370px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card img {
+    margin-bottom: 26px;
+    width: 68px;
+  }
+
+  .card h2 {
+    margin-bottom: 16px;
+    font-weight: 300;
+  }
+
+  .card p {
+    width: 360px;
+  }
+}
+
+@media (max-width: 420px) {
+  .news-article {
+    display: flex;
+    background-color: hsl(0, 0%, 98%);
+    padding-bottom: 72px;
+    padding-left: 0px;
+    padding-right: 0px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .new-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 22px;
+  }
+
+  .news-article h1 {
+    font-size: 38px;
+    font-weight: 300;
+    padding-bottom: 22px;
+  }
+
+  .new-card {
+    width: 316px;
+    max-width: 500px;
+    background-color: hsl(0, 0%, 100%);
+  }
+
+  .new-card span {
+    font-size: 13px;
+    color: hsl(233, 8%, 62%);
+  }
+
+  .new-card h2 {
+    font-size: 17px;
+    color: hsl(233, 26%, 24%);
+    width: 280px;
+    line-height: 20px;
+    margin: 10px 0px 10px 0px;
+  }
+
+  .new-card p {
+    font-size: 14px;
+    width: 270px;
+    color: hsl(233, 8%, 62%);
+  }
 }
