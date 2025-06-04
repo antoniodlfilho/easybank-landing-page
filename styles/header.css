@@ -3,14 +3,42 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* margin-top: 50px; */
-  /* padding: 30px 0px 30px 0px; */
   background-color: hsl(0, 0%, 100%);
 }
 
+.nav-list {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
 .nav-list ul {
+  height: 100%;
   display: flex;
   gap: 40px;
+}
+
+.nav-list ul li {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+li::after {
+  content: "";
+  display: block;
+  position: absolute;
+  background: linear-gradient(45deg, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+  height: 4px;
+  width: 100%;
+  bottom: 0;
+  opacity: 0;
+
+  transition: 0.3s ease-in-out;
+}
+
+li:hover::after {
+  opacity: 1;
 }
 
 .nav-list ul li a {
@@ -19,7 +47,7 @@
 
 .nav-list ul li a:hover {
   color: hsl(233, 26%, 24%);
-  transition: 0.3s;
+  transition: 0.3s ease-in-out;
 }
 
 .btn a {
